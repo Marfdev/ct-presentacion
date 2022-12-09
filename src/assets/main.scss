@@ -1,0 +1,24 @@
+.home-view{
+    height:calc(100vh - 64px);
+    width: 100vw;
+    background-image: url('./home-bg.jpg');
+    .action-cont{
+        display: none;
+        justify-content: center;
+        .intro-btn{
+            background-color: #1976D2 !important;
+            color: white !important;
+        }
+    }
+    .phone-logo{
+        display: none;
+    }
+    .greeting-title{
+        color: white;
+        margin: 20px;
+        position: absolute;
+        text-align: end;
+        bottom: 0;
+        right: 0;
+    }
+}
